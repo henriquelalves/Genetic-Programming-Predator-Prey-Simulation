@@ -1,0 +1,25 @@
+Fox ================================
+
+(progn(progn(sniff_rabbit(turn_left)(turn_right))(sniff_rabbit(sniff_fox(turn_left)(progn(turn_left)(turn_right)(turn_left)))(turn_right))(sniff_fox(turn_right)(turn_right)))(sniff_rabbit(progn(progn(turn_right)(sniff_rabbit(sniff_fox(turn_right)(turn_left))(sniff_fox(advance)(turn_right)))(sniff_fox(turn_left)(turn_right)))(turn_left)(progn(turn_right)(sniff_fox(sniff_fox(turn_right)(advance))(turn_right))(progn(progn(turn_left)(turn_right)(turn_left))(advance)(turn_left))))(advance))(progn(turn_right)(sniff_fox(turn_right)(turn_right))(progn(turn_left)(advance)(turn_left))))
+
+(sniff_rabbit(advance)(turn_left))
+
+(progn(progn(sniff_rabbit(turn_left)(turn_right))(sniff_rabbit(sniff_fox(turn_left)(progn(turn_left)(turn_right)(turn_left)))(turn_right))(sniff_fox(turn_right)(turn_right)))(sniff_rabbit(progn(progn(turn_right)(sniff_rabbit(sniff_fox(sniff_rabbit(sniff_fox(turn_left)(turn_left))(turn_right))(turn_left))(sniff_fox(advance)(turn_right)))(sniff_fox(turn_left)(turn_right)))(turn_left)(progn(turn_right)(sniff_fox(sniff_fox(turn_right)(advance))(turn_right))(progn(progn(turn_left)(turn_right)(turn_left))(advance)(turn_left))))(advance))(progn(turn_right)(sniff_fox(turn_right)(turn_right))(progn(turn_left)(advance)(turn_left))))
+
+(progn(progn(turn_right)(turn_right)(sniff_fox(turn_right)(turn_right)))(sniff_rabbit(advance)(advance))(progn(turn_right)(sniff_fox(turn_right)(turn_right))(progn(turn_left)(advance)(turn_left))))
+
+
+Rabbit: =============================
+
+(sniff_rabbit(turn_right)(advance))
+
+(advance)
+
+(sniff_fox(advance)(advance))
+
+(advance)
+
+(advance)
+
+(advance)
+

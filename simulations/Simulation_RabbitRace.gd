@@ -191,7 +191,7 @@ func calculate_fitness():
 	var rabbits = get_tree().get_nodes_in_group("Rabbit")
 	for i in range (0, rabbits.size()):
 		var fitness = 10.0
-		fitness += (global.MAX_SIZE_Y - rabbits[i].get_pos().y)
+		fitness += (global.MAX_SIZE_X - rabbits[i].get_pos().x)
 		fitness += rabbits[i].step_count * 2
 		if(rabbits[i].alive == false):
 			fitness /= 2
